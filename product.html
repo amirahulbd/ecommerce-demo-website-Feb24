@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- nav starts here -->
+  <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+  <nav id="menu" class="hidden">
+    <ul class="nav-upper flex-space-around">
+        <li class="nav-list">
+            <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-list">
+            <a href="register.html" class="nav-link">Register</a>
+        </li>
+        <li class="nav-list">
+            <a href="login.html" class="nav-link">Login</a>
+        </li>
+        <li class="nav-list">
+            <a href="index.html" class="nav-link">Logout</a>
+        </li>
+        <li class="nav-list">
+            <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-list">
+            <a href="profile.html" class="nav-link"><img src="images/profile.png" alt="profile" class="profile-icon"></a>
+        </li>
+        
+    </ul>
+    <ul class="nav-lower flex-space-around">
+        <li class="nav-list nav_brand">
+            <a href="index.html" class="nav-link">Junayed Xpress</a>
+        </li>
+        <li class="nav-list">
+            <a href="cart.html" class="nav-link"><span>
+            <i class="fa-solid fa-cart-shopping"></i>Cart 2 products-$124.40
+            </span>
+        </a>
+        </li>
+    </ul>  
+
+  </nav>
+
+  <!-- nav ends here -->
+  <main class="flex-center">
+    <div class="main-content">
+        <section class="product-details flex-center">
+            <div class="product-details__left flex-center">
+                <img src="./images/product1.jpg" class="product-details__img" alt="product1">
+            </div>
+            <div class="product-details__right">
+                <h3 class="product__name">Sony V4 Headphone</h3>
+                    <p>
+                        <span class="dot green"></span>
+                        <span class="dot black"></span>
+                        <span class="dot red"></span>
+                    </p>
+                    <p class="product__description">
+                       <strong> Description:</strong>
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum consectetur ullam voluptatem aliquid deleniti eveniet ipsam. Illo aspernatur consequatur numquam! Architecto cupiditate molestias blanditiis, consectetur repudiandae officiis fuga aut nemo. Provident consequatur, enim, earum veritatis, qui eius veniam nostrum officia eos repellendus laboriosam dolorem optio asperiores necessitatibus perspiciatis ut beatae delectus consectetur illum natus tempora aperiam neque labore iste. Exercitationem, corporis reprehenderit, delectus sequi impedit provident cumque sunt adipisci nobis est saepe fugit magni voluptas consectetur? Aliquam qui repellendus adipisci veniam quo quos dignissimos unde officia minus itaque saepe perspiciatis ipsa assumen.
+                    </p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nobis incidunt nostrum dicta et minus fugit maxime, distinctio, quaerat illo consectetur officia aliquam explicabo porro ullam eum perspiciatis quisquam consequuntur ipsa, similique sapiente molestiae harum? Ut omnis nulla officia sed illum molestias sint iste accusamus suscipit earum. Aliquam quaerat magnam nemo enim eveniet laudantium repellendus, dignissimos dolores, accusamus provident sapiente.</p>
+                    <h4 class="product__category">Category: Headphone</h4>
+                    <h4 class="product__price"><strong>Price: </strong>$225</h4>
+                    <p class="product__rating"><strong>Rating: </strong> 4.5/5</p>
+                    <button class="btn product__btn">Add to cart</button>
+                    <button class="btn product__btn">Back to shopping</button>
+            </div>
+        </section>
+    </div>
+
+
+
+  </main>
+
+  <footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">subscribe to newsletter: </label>
+        <input type="email" id="subscribe" name="subscribe" class="footer_input" placeholder="Your Mail Address">
+        <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+    <div>
+        <p>
+            &copy; Copyrights reserved by Junayed Xpress 2024
+        </p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
